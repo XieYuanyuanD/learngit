@@ -33,3 +33,4 @@ git版本库里有stage（index）暂存区和git为我们自动创建的第一�
 git add将文件提交到暂存区
 git commit将暂存区的所有内容提交到当前分支
 git checkout -b <分支名> 创建并切换分支
+git checkout -b <本地分支名> origin/<远程分支名> 拉取远程分支并在本地创建和切换该分支
