@@ -32,3 +32,4 @@ git reflog 查看命令历史，确定回到未来哪个版本
 git版本库里有stage（index）暂存区和git为我们自动创建的第一个分支master，以及指向master的第一个指针head
 git add将文件提交到暂存区
 git commit将暂存区的所有内容提交到当前分支
+git checkout -b <分支名> 创建并切换分支
